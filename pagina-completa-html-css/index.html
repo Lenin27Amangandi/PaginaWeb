@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Proyecto De Redes Equipo 3</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <p class="logo">ProyectoEquipo3</p>
+        <nav>
+          <a href="#Deficicion">Definicion</a>
+          <a href="#caracteristicas">Características</a>
+          <a href="#detalle-topologias">Topologia</a>
+          <a href="#elementos">Elementos</a>
+          <a href="#canalizacion">Canalizaciones</a>
+          <a href="#Ninguno2">Tipos de Cable</a>
+          <a href="#Ninguno3">Dispositivos de Interconexión</a>
+          <a href="#Ninguno4">Servicios convergentes </a>
+          <a href="#Ninguno5">Beneficios</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero">
+      <h1>Cableado Estructurado</h1>
+    </section>
+
+    <section id="Deficicion">
+      <div class="container">
+        <div class="img-container"></div>
+        <div class="texto">
+          <h2>Definición</h2>
+          <p>
+            El cableado estructurado es un sistema que organiza de manera
+            eficiente los cables usados para transmitir datos, voz y video
+            dentro de una red, especialmente en oficinas o centros de datos.
+            Está compuesto por elementos como cables, conectores y
+            canalizaciones, instalados siguiendo normas internacionales para
+            asegurar un buen funcionamiento. Su diseño facilita el
+            mantenimiento, permite realizar cambios sin complicaciones y se
+            adapta fácilmente a futuras ampliaciones. Gracias a esta estructura,
+            se logra una red más ordenada, estable y preparada para crecer según
+            las necesidades tecnológicas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="caracteristicas">
+      <div class="container">
+        <div class="texto">
+        <h2>Características</h2>
+        <ul>
+          <li>Estandarización: Sigue normas como ANSI/TIA/EIA-568 <br> y ISO/IEC 11801.</li>
+          <li>Modularidad: Permite agregar, cambiar o eliminar conexiones <br> sin alterar el sistema completo</li>
+          <li>Interoperabilidad: Admite múltiples aplicaciones y dispositivos <br> sin necesidad de infraestructura exclusiva.</li>
+          <li>Escalabilidad: Facilita el crecimiento de la red <br> conforme a las necesidades futuras.</li>
+          <li>Gestión centralizada: Facilita el monitoreo, mantenimiento <br> y documentación de la red.</li>
+          <li>Soporte para servicios múltiples: Acepta tráfico de datos, <br> voz, video, seguridad y automatización..</li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+<section id="detalle-topologias">
+  <h2>Tipos de Topología</h2>
+  <div class="contenedor-topologias">
+    <details>
+      <summary class="boton-info">Topología Estrella</summary>
+      <img src="media/TopologiaEstrella.png" class="imagen-topologia">
+      <p>Es la topología predominante en cableado estructurado. Cada dispositivo
+                de red (PC, impresora, teléfono IP, etc.) está conectado a un punto central
+                (generalmente un switch). Este modelo proporciona eficiencia y facilidad de
+                diagnóstico.</p>
+    </details>
+
+    <details>
+      <summary class="boton-info">Topología Estrella Extendida </summary>
+      <img src="media/TopologiaEstrellaEx.png" class="imagen-topologia">
+      <p>Ampliación de la topología en estrella que incorpora múltiples switches distribuidos por plantas o zonas del edificio, conectados a un switch principal. Esta estructura es común en redes empresariales grandes o campus universitarios.
+Es una variante de la estrella que utiliza múltiples switches conectados entre sí para formar jerarquías. Cada switch actúa como centro de una subred que se conecta a un switch central de distribución.
+</p>
+    </details>
+
+    <details>
+      <summary class="boton-info">Topología en Árbol</summary>
+      <img src="media/TopologiaDeArbol.png" class="imagen-topologia">
+      <p>Es una combinación jerárquica de múltiples estrellas. Se utiliza cuando se requiere escalabilidad y se debe segmentar la red por áreas físicas o funcionales. Permite un diseño más estructurado y organizado.
+Es comúnmente usada cuando se desea tener independencia y control por zonas o departamentos.
+</p>
+    </details>
+
+    <details>
+      <summary class="boton-info">Topología Mixta o Híbrida </summary>
+      <img src="media/TopologiMixta.png" class="imagen-topologia">
+      <p>Combina dos o más tipos de topologías para adaptarse a las necesidades específicas de la red. Por ejemplo, una estrella jerárquica puede incluir segmentos de anillo o bus para ciertos departamentos.
+En la práctica, muchos sistemas combinan varias topologías para adaptarse a las necesidades físicas del edificio y a los requerimientos del cliente.</p>
+    </details>
+  </div>
+</section>
+
+<section id="elementos">
+  <div class="container-elemento">
+    <h2>Elementos</h2>
+
+    <div class="subtema fila">
+      <div class="texto">
+        <h3>Cableado Horizontal</h3>
+        <p>
+            Es el cableado que conecta desde el área de trabajo (por ejemplo, una computadora o teléfono IP) hasta el closet de telecomunicaciones.
+        </p>
+      </div>
+      <div class="imagen">
+        <img src="media/CableHprizontal.jpg" alt="Cableado Estructurado">
+      </div>
+    </div>
+
+    <div class="subtema fila-reversa">
+      <div class="texto">
+        <h3>Cableado Vertical</h3>
+        <p>
+            Es el encargado de interconectar los armarios de telecomunicaciones ubicados en distintos pisos o áreas de un edificio, transportando grandes volúmenes de datos entre los subsistemas horizontales de cada nivel y la red troncal principal de la empresa.
+            A menudo se compara con una columna vertebral porque proporciona soporte crítico a toda la infraestructura, permitiendo que las comunicaciones fluyan de manera eficiente y fiable. Este sistema utiliza cables de alto rendimiento, como la fibra óptica, que destacan por
+            su capacidad de manejar grandes cantidades de datos a alta velocidad y con mínimas pérdidas de señal, incluso en largas distancias.
+        </p>
+      </div>
+      <div class="imagen">
+        <img src="media/CableVertical.jpg" alt="Cableado Estructura">
+      </div>
+    </div>
+
+    <div class="subtema fila">
+      <div class="texto">
+        <h3>Cuarto de Comunicaciones</h3>
+        <p>
+            Es un espacio físico especialmente diseñado para alojar el equipamiento de red y telecomunicaciones de una organización. En este cuarto se concentran todos los cables provenientes de las diferentes áreas del edificio (cableado horizontal) y los enlaces de otros pisos o edificios (cableado vertical o backbone). Sirve para unificar y resguardar los componentes del sistema de cableado estructurado, que abarca cables, conectores, aparatos de protección y dispositivos de telecomunicaciones.
+La ubicación ideal de los cuartos de telecomunicaciones es en el centro del área a la que deben prestar servicio. Es un punto crítico en la infraestructura de TI, ya que allí se gestiona y distribuye todo el tráfico de red: voz, datos, video y otros servicios convergentes.
+        </p>
+      </div>
+      <div class="imagen">
+        <img src="media/CuartoDeComunicaciones.jpg" alt="Cableado de Comunicaciones">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="canalizacion">
+  <div class="container-canalizacion">
+
+    <div class="texto">
+      <h2>Canalización</h2>
+      <p>
+        Las canalizaciones son sistemas físicos de gestión y resguardo que se emplean para albergar, estructurar 
+        y salvaguardar los cables de red, energía y otros servicios en una infraestructura. Es fundamental su adecuado 
+        diseño e instalación para asegurar la longevidad, protección y óptimo desempeño del sistema de cableado 
+        estructurado.
+      </p>
+    </div>
+    <div class="imagen">
+      <img src="media/canalizacion.jpeg" alt="Canalización">
+    </div>
+  </div>
+</section>
+
+</html>
