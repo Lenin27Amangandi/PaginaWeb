@@ -17,7 +17,7 @@
           <a href="#canalizacion">Canalizaciones</a>
           <a href="#Ninguno2">Tipos de Cable</a>
           <a href="#Ninguno3">Dispositivos de Interconexión</a>
-          <a href="#Ninguno4">Servicios convergentes </a>
+          <a href="#servicios">Servicios convergentes </a>
           <a href="#Ninguno5">Beneficios</a>
         </nav>
       </div>
@@ -53,12 +53,12 @@
         <div class="texto">
         <h2>Características</h2>
         <ul>
-          <li>Estandarización: Sigue normas como ANSI/TIA/EIA-568 <br> y ISO/IEC 11801.</li>
-          <li>Modularidad: Permite agregar, cambiar o eliminar conexiones <br> sin alterar el sistema completo</li>
-          <li>Interoperabilidad: Admite múltiples aplicaciones y dispositivos <br> sin necesidad de infraestructura exclusiva.</li>
-          <li>Escalabilidad: Facilita el crecimiento de la red <br> conforme a las necesidades futuras.</li>
-          <li>Gestión centralizada: Facilita el monitoreo, mantenimiento <br> y documentación de la red.</li>
-          <li>Soporte para servicios múltiples: Acepta tráfico de datos, <br> voz, video, seguridad y automatización..</li>
+          <li> Estandarización: Sigue normas como ANSI/TIA/EIA-568 <br> y ISO/IEC 11801.</li>
+          <li> Modularidad: Permite agregar, cambiar o eliminar conexiones <br> sin alterar el sistema completo</li>
+          <li> Interoperabilidad: Admite múltiples aplicaciones y dispositivos <br> sin necesidad de infraestructura exclusiva.</li>
+          <li> Escalabilidad: Facilita el crecimiento de la red <br> conforme a las necesidades futuras.</li>
+          <li> Gestión centralizada: Facilita el monitoreo, mantenimiento <br> y documentación de la red.</li>
+          <li> Soporte para servicios múltiples: Acepta tráfico de datos, <br> voz, video, seguridad y automatización..</li>
         </ul>
         </div>
       </div>
@@ -136,14 +136,13 @@ En la práctica, muchos sistemas combinan varias topologías para adaptarse a la
         <h3>Cuarto de Comunicaciones</h3>
         <p>
             Es un espacio físico especialmente diseñado para alojar el equipamiento de red y telecomunicaciones de una organización. En este cuarto se concentran todos los cables provenientes de las diferentes áreas del edificio (cableado horizontal) y los enlaces de otros pisos o edificios (cableado vertical o backbone). Sirve para unificar y resguardar los componentes del sistema de cableado estructurado, que abarca cables, conectores, aparatos de protección y dispositivos de telecomunicaciones.
-La ubicación ideal de los cuartos de telecomunicaciones es en el centro del área a la que deben prestar servicio. Es un punto crítico en la infraestructura de TI, ya que allí se gestiona y distribuye todo el tráfico de red: voz, datos, video y otros servicios convergentes.
+            La ubicación ideal de los cuartos de telecomunicaciones es en el centro del área a la que deben prestar servicio. Es un punto crítico en la infraestructura de TI, ya que allí se gestiona y distribuye todo el tráfico de red: voz, datos, video y otros servicios convergentes.
         </p>
       </div>
       <div class="imagen">
         <img src="media/CuartoDeComunicaciones.jpg" alt="Cableado de Comunicaciones">
       </div>
     </div>
-
   </div>
 </section>
 
@@ -158,11 +157,159 @@ La ubicación ideal de los cuartos de telecomunicaciones es en el centro del ár
         diseño e instalación para asegurar la longevidad, protección y óptimo desempeño del sistema de cableado 
         estructurado.
       </p>
+        <a href="/pagina-completa-html-css/cuartosComunicacion.html" class="boton-tipos">Tipos De Canalizaciones</a>
     </div>
     <div class="imagen">
       <img src="media/canalizacion.jpeg" alt="Canalización">
     </div>
   </div>
 </section>
+
+<h2 style="text-align: center;">Dispositivos de Interconexión</h2>
+<div  id="Ninguno3" class="row">
+  <div class="card">
+    <img src="media/swetch.png" alt="Switch" class="card-img">
+    <div class="card-body">
+      <h2 class="card-title">Switch</h2>
+      <p class="card-text">
+        Dispositivo central que envía datos eficientemente. Puede ser:
+        <ul>
+          <li>No gestionable (plug and play)</li>
+          <li>Gestionable (VLAN, QoS, monitoreo)</li>
+        </ul>
+        <strong>Características:</strong>
+        <ul>
+          <li>Conexiones simultáneas sin colisiones</li>
+          <li>Opera en Capa 2 (Enlace de datos)</li>
+          <li>Algunos operan en Capa 3 (con enrutamiento)</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!-- Tarjeta: Router -->
+  <div class="card">
+    <img src="media/router.png" alt="Router" class="card-img">
+    <div class="card-body">
+      <h2 class="card-title">Router</h2>
+      <p class="card-text">
+        Interconecta redes (LAN, WAN, ISP).
+        <!-- <br>Características: -->
+        <strong>Características:</strong>
+        <ul>
+          <li>Utiliza direcciones IP para enrutar datos</li>
+          <li>Opera en la Capa 3 del modelo OSI</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!-- Tarjeta: Patch Panel -->
+  <div class="card">
+    <img src="media/PatchPanel.png" alt="Patch Panel" class="card-img">
+    <div class="card-body">
+      <h2 class="card-title">Patch Panel</h2>
+      <p class="card-text">
+        Dispositivo pasivo que facilita la conexión entre el cableado horizontal y los equipos de red mediante cables de parcheo. Permite una gestión organizada y flexible.
+        <br>
+        <strong>Características:</strong>
+        <ul>
+          <li>Conexión trasera mediante bloques IDC</li>
+          <li>Facilita cambios sin tocar el cableado estructurado</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!-- Tarjeta: Access Point -->
+  <div class="card">
+    <img src="media/accesPoint.png" alt="Access Point" class="card-img">
+    <div class="card-body">
+      <h2 class="card-title">Access Point (AP)</h2>
+      <p class="card-text">
+        Permite la conexión inalámbrica a la red estructurada. Se conecta por cable UTP al switch, extendiendo la conectividad a dispositivos Wi-Fi.
+      </p>
+      <br>
+        <strong>Características:</strong>
+        <ul>
+          <li>Se conecta al switch mediante un cable UTP</li>
+          <li>Puente entre la red Wi-Fi (WLAN) y red LAN</li>
+        </ul>
+    </div>
+  </div>
+
+  <!-- Tarjeta: Módem -->
+  <div class="card">
+    <img src="media/Modem.png" alt="Modem" class="card-img">
+    <div class="card-body">
+      <h2 class="card-title">Modem</h2>
+      <p class="card-text">
+        Convierte señales digitales en analógicas y viceversa para la conexión a internet a través de tecnologías como ADSL o cable coaxial.
+      </p>
+              <strong>Características:</strong>
+        <ul>
+          <li>Uso común en conexiones residenciales (ADSL, cable)</li>
+          <li>Se conecta al ISP por teléfono, fibra o coaxial</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<section id="servicios" class="servicios-section">
+  <!-- <h2 class="titulo-seccion">Servicios Convergentes</h2> -->
+  <h2 style="text-align: center;">Definición Servicios Convergentes</h2>
+
+  <div class="definicion-imagen" style="display: flex; align-items: flex-start; gap: 20px;">
+    <div class="definicion" style="flex: 1;">
+      <h3>Definición Servicios Convergentes</h3>
+      <p>
+        Los servicios convergentes se refieren a la integración de diferentes tipos de tráfico (voz, datos, video y más) en una misma infraestructura de red.
+        Esta convergencia permite a las organizaciones utilizar una sola red para múltiples aplicaciones, mejorando la eficiencia y reduciendo los costos operativos.
+      </p>
+    </div>
+    <div class="imagen" style="flex: 1;">
+      <img src="media/convergente.png" alt="Imagen Servicios Convergentes" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
+  </div>
+
+  <div class="caracteristicas-ventajas" style="display: flex; gap: 40px; margin-top: 30px;">
+    <div class="caracteristicas" style="flex: 1;">
+      <h3>Características de Servicios Convergentes</h3>
+      <ul>
+        <li>Unificación de redes: Una sola red para múltiples servicios.</li>
+        <li>Eficiencia operativa: Reducción del cableado y equipamiento redundante.</li>
+        <li>Optimización de recursos: Mejora en el uso de ancho de banda, infraestructura y soporte técnico.</li>
+        <li>Mayor control y gestión centralizada: Todos los servicios pueden ser monitoreados desde un solo punto.</li>
+        <li>Compatibilidad con tecnologías IP: Utiliza el protocolo de Internet para transmisión convergente.</li>
+        <li>Escalabilidad y flexibilidad: Fácil de adaptar a nuevas aplicaciones como IoT o videoconferencias avanzadas.</li>
+      </ul>
+    </div>
+
+    <div class="ventajas" style="flex: 1;">
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Reducción de costos de instalación y mantenimiento.</li>
+        <li>Mejor aprovechamiento del ancho de banda.</li>
+        <li>Facilidad en la administración y soporte.</li>
+        <li>Incremento en la productividad y disponibilidad de los servicios.</li>
+        <li>Menor consumo energético por integración de equipos.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="servicios-contenido" style="margin-top: 50px;">
+    <h3>Servicios Servicios Convergentes</h3>
+    <ul>
+      <li>Telefonía IP (VoIP)</li>
+      <li>Acceso a internet</li>
+      <li>Televisión IP (IPTV)</li>
+      <li>Videovigilancia</li>
+      <li>Control de accesos y automatización</li>
+      <li>Aplicaciones en la nube</li>
+    </ul>
+  </div>
+</section>
+
+
 
 </html>
