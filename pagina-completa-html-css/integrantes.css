@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #007bff;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.equipo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 40px;
+}
+
+.miembro {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.miembro img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.miembro h2 {
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+
+.miembro p {
+  color: #666;
+}
+
+.miembro img {
+  width: 150px;               /* Tamaño fijo horizontal */
+  height: 150px;              /* Tamaño fijo vertical */
+  object-fit: cover;          /* Corta la imagen sin deformarla */
+  border-radius: 50%;         /* Para que siga siendo circular */
+  margin: 0 auto;             /* Centrado opcional si necesitas */
+  display: block;
+}
