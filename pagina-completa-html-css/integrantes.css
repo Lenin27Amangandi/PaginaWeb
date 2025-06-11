@@ -1,29 +1,48 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #e8d5d5;
 }
 
 header {
-  background-color: #007bff;
+  background-color: #ff00ee;
   padding: 20px;
   text-align: center;
   color: white;
 }
 
+
+
 .equipo-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px;
-  gap: 40px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 20px;
 }
 
+.equipo-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.equipo-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.equipo-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+
+
 .miembro {
-  background: white;
+  /* background: rgb(232, 207, 229); */
+  background-color: #e6ecec;
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
+  text-align: justify;
   width: 250px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
